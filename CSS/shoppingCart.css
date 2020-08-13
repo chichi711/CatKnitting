@@ -1,0 +1,49 @@
+a:hover {
+    color: var(--petal);
+}
+.shoppingBox {
+    height: 20vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.product {
+    height: 80%;
+    width: auto;
+    overflow: hidden;
+    /* background-color: darkgrey; */
+    display: table;
+
+}
+.pCenter {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.btn-petal {
+    color: white;
+    background-color: var(--petal);
+    border-radius: 20px;
+}
+.btn-petal:hover {
+    color: white;
+    background-color: var(--l-pink);
+}
+.imgFluid {
+    width: 100%;
+    max-height: 120px;
+    overflow: hidden;
+}
+.all {
+    background-color: var(--blush);
+    margin: 1% 5% 0% 5%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.submit {
+    margin: 2rem 7rem 1rem 0rem;
+    height: 50px;
+    width: 70px;
+    font-size: 1.2rem;
+}

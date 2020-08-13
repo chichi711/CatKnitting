@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('../Font/NotoSansTC-Medium.otf');
+    font-family: 'Noto Sans TC-Thin';
+    src: url('../Font/NotoSansTC-Thin.otf');
+}
+.bg-blush {
+    background-color: var(--blush);
+}
+.bg-cream {
+    background-color: var(--cream);
+}
+.btn-petal {
+    color: white;
+    background-color: var(--petal);
+}
+.btn-petal:hover {
+    color: white;
+    background-color: var(--l-pink);
+}
+.btn-silver {
+    color: white;
+    background-color: var(--silver);
+    border-color: var(--silver);
+}
+.btn-silver:hover {
+    color: white;
+    background-color: var(--smoke);
+    border-color: var(--smoke);
+}
+.icon {
+    height: 3.5vmin;
+    width: 2vmax;
+}
+#logo {
+    width: 2.5vw;
+}
+@media (max-width: 991.98px) {
+    .brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px;
+        display: block;
+    }
+}
+body,
+footer {
+    --cream: #fdf9f0;
+    --blush: #faecd2;
+    --l-pink: #f7d7cb;
+    --petal: #f1c4af;
+    --silver: #d4d4d4;
+    --smoke: #acacac;
+    font-family: 'Noto Sans TC','STHeiti','Microsoft JhengHei';
+}
+body {
+    margin-top: 3.5rem;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.navbar {
+    box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
+    height: 10%;
+    position: relative;
+}
+.search {
+    border-style: none none solid none;
+    background-color: inherit;
+    transition: all 1s;
+    width: 0px;
+    border-color: rgba(0, 0, 0, 0);
+}
+#searchdad:hover > .search, #searchdad:focus > .search,.search:focus {
+    width: 150px;
+    border-color: var(--smoke);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    background-color: var(--cream);
+}
+.dropdown-item:active {
+    color: #ffffff;
+    background-color: var(--l-pink);
+}
+.carousel-item>source {
+    height: 90vh;
+    width: 100%;
+}
+.carousel-item>img {
+    /* height: 90vh; */
+    width: 100%;
+}
+.row>div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-shadow {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.card-shadow:hover {
+    box-shadow: 0 0 0.5rem 0.1rem rgba(0, 0, 0, 0.15);
+}
+.card-body {
+    padding: 0.9rem 0.75rem;
+}
+.card-subtitle {
+    position: relative;
+}
+.product-subtitle {
+    position:absolute;
+    bottom:-10px;
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.product-subtitle p:last-child {
+    font-size: 85%;
+    font-family: 'Noto Sans TC-Thin','STHeiti','Microsoft JhengHei';
+    text-overflow: clip;
+}
+.subtitle-hover {
+    visibility: visible;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 0.9rem 0.75rem;
+    overflow: hidden;
+
+}
+.overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    background-color: rgb(255, 255, 255);
+}
+.imgFluid {
+    width: 100%;
+    height: 227px;
+    /* min-width: 100%; */
+    /* min-height: 227px; */
+    overflow: hidden;
+  }
+.price {
+    padding: 0.75rem;
+    font-size: 80%;
+}
+.cat-footer {
+    display: flex;
+    font-size: 80%;
+    color: #6c757d;
+    background-color: var(--silver);
+    padding: 0.75rem 1.25rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+    justify-content: center;
+    text-align: center;
+}
+
+

@@ -1,0 +1,20 @@
+.bg-img {
+    background-image: url("../img/web/sign.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loginInput {
+    top: 50%;
+    position: absolute;
+    width: 300px;
+    transform: translateY(10%);
+}
+.float-right:hover {
+    color: lightcoral;
+    text-decoration: underline;
+}
